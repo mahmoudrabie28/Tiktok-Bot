@@ -14,6 +14,5 @@ function checkInt($inserted_value)
     return $return_value;
 }
 
-asdas
 
  ?>
