@@ -285,7 +285,7 @@ include("includes/theme/header.php"); // Header
                                       </div>
                                       <div class="media-body text-right">
                                         Auto Video Views
-                                        <!--
+                                        <!---
                                         <a href="views.php?username=<?php echo $profile_username; ?>&case=views" target="_blank" class="btn btn-success btn-sm">Auto Video Views</a>
                                       -->
                                       </div>
