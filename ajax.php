@@ -284,10 +284,10 @@ include("includes/theme/header.php"); // Header
                                         <i class="fa-solid fa-eye float-left font-large-2 text-info auto-icons"></i>
                                       </div>
                                       <div class="media-body text-right">
-                                        Auto Video Views
-                                        <!---
+                                        <!--Auto Video Views-->
+                                        
                                         <a href="views.php?username=<?php echo $profile_username; ?>&case=views" target="_blank" class="btn btn-success btn-sm">Auto Video Views</a>
-                                      -->
+                                      
                                       </div>
                                     </div>
                                   </div>
@@ -305,10 +305,10 @@ include("includes/theme/header.php"); // Header
                                         <i class="fa-solid fa-share float-left font-large-2 text-primary auto-icons"></i>
                                       </div>
                                       <div class="media-body text-right">
-                                        Auto Video Shares
-                                        <!--
+                                        <!--Auto Video Shares -->
+                                        
                                         <a href="shares.php?username=<?php echo $profile_username; ?>&case=shares" target="_blank" class="btn btn-success btn-sm">Auto Video Shares</a>
-                                      -->
+                                     
                                       </div>
                                     </div>
                                   </div>
