@@ -1,21 +1,25 @@
-This app is in php language 
-// it must be work in your local environment not a global 
-// it must be worked in firefox browser only
-// this for eductional and demonstation purpose, I am not responible for any bad use.
-1- download the data from the github
-2- you need xampp and latest version of php to be installed in your device
-3- put all files in the main xampp htdcs folder 
-3- go to selenium server and open selenium-server-standalone-3.14.0 -> this is the server which will the link between Selenium and the browser by using FACEBOOK PHPWEBDRIVER LIBARAY
-4- after oppening the server do not close the termoninal window and ensure that the port is up
-5- start xampp apache server and navigate to the localhost (if you find any error to navigate to your local site just serch on the net it may be because of ports)
-6- open the main page of the server it may be "localhost or 127.0.01" = index.php
-7- if everything is okay you will find the main page open correctly and you will find the profile search input
-8- try to put tiktok pofile link "full link" example https://www.tiktok.com/@[username] and click in submit and wait until getting data
-9- you have two options [failed to get data = please insert correct username] it maybe because of weak internet or you inserted incorrect username. and the other is correct
-10- if everything is right you will get the information and profile image about this tiktok profile
-11- you will find that some of option is not working right now but it will work in the future 
-12- try to click on views button and then insert the full video link and and choose the rounds number it must be less than 100 and click on submit
-13- you will find a new firefox browser has been oppened and has adblock extension just close the empty tab and let adblock tab navigate to zefoy.com
-14- try to insert the captcha and click on submit if it is correct just leave the app continue the work until it finishs
-15- if the browser gets late for any reason more than 40 seconds it will be failed to continue so be sure that internet and ram is free
-16 try to increase the mass-timeout- in php make it 0 just search on google how to change it it is easy you will add a line in php,ini
+<div><strong>TikTok Auto Bot</strong></div>
+<div><strong>TikTok Automation Bot [Shares-views-Favoriets-Mass Block-Followers-Likes-Comments Likes]
+</strong></div>
+The demonstraion will be avaiable in the files "how it works" -> still under construciton
+-----------------------
+<div><strong>For EducationalPurposes Only, I am not responsible for any miss using for this app </strong></div>
+<div>You must change max_execution_time=0 in php config file 'php.ini' and put it zero</div>
+<div>1-download gecodriver you will find my using version inside the selenium folder but you need to install the suitable version for your firefox browser</div>
+<div>2- after openning gecodriver just close it and enusre that it is still working in the taskbar manager in process </div>
+<div>3- go to selenium folder and open terminal here and write this command 'java -jar selenium-server-standalone-3.14.0.jar' </div>
+<div>4- ensure that the selenium server is working and up and port is working well</div>
+<div>5- open firefox or chrome browser and go to your local host --you need xampp and put the files inside htdcs folder</div>
+<div>6- you will find the website and you can now insert a full tiktok profile link not a short one</div>
+<div>7- if profile information appears well it works well if not just ensure that selenium server is working and refresh the page and ensure that username is correct</div>
+<div>now you can select the option you want if this option is enabled right now</div>
+<div>put full video link and insert the rounds number between 1-100</div>
+<div>do not close the automated browser just close the empty tab and let adblock tab works because it will be redirected to zefoy.com</div>
+<div>insert captcha and remember you have only 40 seconds to do this or it will be terminated by the app</div>
+<div>after reaching the main zefoy page.. let your mouse and Do not interact with zefoy website at all and it will be automated until finishing the process</div>
+
+
+
+
+
+![image](https://github.com/mahmoudrabie28/Tiktok-Bot/assets/170764098/47152762-b556-4bc9-a76b-1a6a84bec314)
